@@ -1,3 +1,8 @@
 # Assembly-Line-Worker-Assignment
 
+## Background <br><br>
+
+The invention of the assembly line was a technological change for the manufacturing industry that greatly improved efficiency. Today, many manufacturers are using assembly line for production, such as automobile manufacturing, chip manufacturing, garment processing, etc.. Assembly line equalization is the process of dividing or combining operations in accordance with the engineering sequence of assembly line operations, so that the load of each station is uniform, in order to improve production efficiency. The traditional assembly line balancing is realized manually by the assembly line scheduler, which relies heavily on the professionalism and scheduling experience of the personnel, and it is difficult to achieve global optimization in the deployment of various production factors. The key to assembly line equalization is not only to consider the arrangement of processes, stations and equipment, but also to equalize the workload of each station and improve the overall balance and productivity of the assembly line.
+The topic of this competition is set for the actual industrial production environment, hoping that the participants can solve the bottleneck process and make the production smoother and more efficient through AI imitating the ability of orchestrators in the allocation of workstations, splitting and merging of work processes.
+
 Source code for [Suzhou Park Huawei Cloud Cup 2023 Artificial Intelligence Application Innovation Competition (Creators)](https://competition.huaweicloud.com/information/1000041930/html12?utm_source=e7c2eef1606847f1851d7e7b12f1637a&share=84be1103308e484b9620777a65519e71)

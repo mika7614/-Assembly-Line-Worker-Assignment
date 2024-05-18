@@ -7,3 +7,6 @@ The invention of the assembly line was a technological change for the manufactur
 Assembly line balance is a process of dividing or combining operations in accordance with the sequence of assembly line operations, improving the efficiency of production. The traditional assembly line balancing is realized manually by the manager, which relies heavily on the professionalism and scheduling experience, making it difficult to achieve global optimization in the deployment of various production factors. The key to balance assembly line is not only to consider the arrangement of processes, stations and equipment, but also to balance the workload of each station and improve the overall balance and productivity of the assembly line.<br>
 
 The topic of this competition is set for the actual industrial production environment, hoping that the participants can solve the bottleneck process and make the production more efficient using AI that imitates the ability of the manager in the allocation of workstations, splitting and merging of work processes.
+
+## Dependencies
+ortools

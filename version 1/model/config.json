@@ -1,0 +1,57 @@
+{
+  "model_algorithm": "Operation Assignment",
+  "model_type": "PyTorch",
+  "runtime": "python3.6",
+  "apis": [
+    {
+      "procotol": "http",
+      "url": "/",
+      "method": "post",
+      "request": {
+        "Content-type": "multipart/form-data",
+        "data": {
+          "type": "object",
+          "properties": {
+            "input_json": {
+              "type": "file"
+            }
+          },
+          "required": [
+            "input_json"
+          ]
+        }
+      },
+      "response": {
+        "Content-type": "multipart/form-data",
+        "data": {
+          "type": "object",
+          "properties": {
+            "result": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "result"
+          ]
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "installer": "pip",
+      "packages": [
+        {
+          "package_name": "ortools",
+          "package_version": "9.4.1874",
+          "restraint": "ATLEAST"
+        },
+	{
+          "package_name": "numpy",
+          "package_version": "1.19.5",
+          "restraint": "ATLEAST"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,1 @@
-# -Assembly-Line-Worker-Assignment
+# Assembly-Line-Worker-Assignment
